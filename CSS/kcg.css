@@ -244,26 +244,6 @@ body {
   color: #000;
 }
 
-.iconDown {
-  background: url("/Users/tsaiyiting/Desktop/kcg/CSS/icons_down.png") center
-    no-repeat;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  top: -14px;
-  left: 500px;
-  border-radius: 50px;
-  border: 2px solid #559ac8;
-  background-color: white;
-}
-.con1 {
-  position: relative;
-  width: 1024px;
-  top: 89px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
 .zoneTitle {
   color: #8a82cc;
   font-size: 36px;
