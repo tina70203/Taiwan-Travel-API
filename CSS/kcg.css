@@ -1,0 +1,366 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  /*vertical-align: baseline;*/
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.header {
+  background: url("/Users/tsaiyiting/Desktop/kcg/CSS/Hero.png") no-repeat;
+  background-size: cover;
+  height: 380px;
+}
+
+.wrap {
+  position: relative;
+  width: 1024px;
+  margin: 0 auto;
+}
+.webtitle {
+  color: white;
+  font-size: 40px;
+  top: 89px;
+  position: absolute;
+  left: 380.5px;
+}
+
+.select {
+  margin-top: 225px;
+  font-size: 18px;
+  width: 452px;
+  height: 48px;
+
+  margin-left: 293px;
+}
+
+.popArea {
+  background-color: white;
+  width: 800px;
+  height: 112px;
+
+  margin-top: 50px;
+  border-radius: 5px;
+  margin-left: 112px;
+  border: 1px solid #dddddd;
+  box-shadow: 1px 1px #dddddd;
+}
+
+.poph2 {
+  font-size: 21px;
+  margin-top: 18px;
+  margin-left: 26px;
+  margin-bottom: 15px;
+}
+.popboxes {
+  margin-left: 51px;
+}
+
+.btn1 {
+  width: 130px;
+  height: 42px;
+  background-color: #8a82cc;
+  border-radius: 5px;
+  margin-right: 23px;
+  font-size: 21px;
+  color: white;
+  cursor: pointer;
+}
+.btn2 {
+  width: 130px;
+  height: 42px;
+  background-color: #ffa782;
+  border-radius: 5px;
+  margin-right: 23px;
+  font-size: 21px;
+  color: white;
+  cursor: pointer;
+}
+.btn3 {
+  width: 130px;
+  height: 42px;
+  background-color: #f5d005;
+  border-radius: 5px;
+  margin-right: 23px;
+  font-size: 21px;
+  color: white;
+  cursor: pointer;
+}
+.btn4 {
+  width: 130px;
+  height: 42px;
+  background-color: #559ac8;
+  border-radius: 5px;
+  font-size: 21px;
+  color: white;
+  cursor: pointer;
+}
+.hr {
+  width: 80%;
+  border-top: 2px dashed#559AC8;
+  position: relative;
+  left: 130px;
+  top: 150px;
+  color: #000;
+}
+
+.iconDown {
+  background: url("/Users/tsaiyiting/Desktop/kcg/CSS/icons_down.png") center
+    no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -14px;
+  left: 500px;
+  border-radius: 50px;
+  border: 2px solid #559ac8;
+  background-color: white;
+}
+.con1 {
+  position: relative;
+  width: 1024px;
+  top: 89px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.zoneTitle {
+  color: #8a82cc;
+  font-size: 36px;
+  margin-top: 200px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.box {
+  width: 475px;
+  height: 285px;
+  border: 1px solid #dbdbdb;
+  float: left;
+  margin-left: 120px;
+  margin-bottom: 36px;
+  box-shadow: 1px 1px #dbdbdb;
+  overflow: hidden;
+}
+
+.clearfix {
+  clear: both;
+}
+img {
+  width: 100%;
+  height: 80%;
+}
+
+.picture1 {
+  margin-top: -50px;
+}
+
+.placeName {
+  color: white;
+  margin-top: -40px;
+  font-size: 24px;
+  margin-left: 30px;
+}
+
+.zoneName {
+  color: white;
+  font-size: 16px;
+  margin-left: 410px;
+}
+.openTime {
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.address {
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+.phone {
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+.free {
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+.iconClock {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+.iconPin {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
+.iconPhone {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
+.iconTag {
+  width: 18px;
+  height: 18px;
+}
+
+.footer {
+  background-color: #559ac8;
+
+  margin-bottom: 0px;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+.web {
+  color: white;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+.gov {
+  color: #ffd366;
+}
